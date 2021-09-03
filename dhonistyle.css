@@ -1,0 +1,44 @@
+.header{
+    background: url(Images/retirement.jpg) no-repeat center;
+    background-size: 100%;
+    font: normal 16px/1.5 "Helvetica Neue", sans-serif ;
+    position: relative;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-content: center;
+}
+
+ul li{
+    padding: 1em;
+    list-style: none;
+    letter-spacing: 1px;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul li a{
+    text-decoration: none;
+    color:blue;
+}
+
+ul li a:hover{
+    border-bottom: 3px solid blue;
+}
+
+.content h1{
+    color: #fff;
+    text-align: center;
+}
+
+.bio{
+    background: linear-gradient();
+}
